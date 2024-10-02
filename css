@@ -1,0 +1,280 @@
+body{
+  margin: 0;
+}
+
+
+div{
+  display: flex;
+}
+
+.header{
+  justify-content: space-between;  
+  align-items: center; 
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+  padding: 0 10%;
+  box-sizing: border-box;
+}
+
+.header div{
+  align-items: center; 
+  gap: 10px;
+}
+
+.vk_logo{
+  height: 30px;
+}
+
+.search{
+  height: 30px;
+  border-radius: 10px;
+  background-color: #424242;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.search:hover {
+  background-color: #4a4a4a;
+}
+
+.h_a{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height:50px;
+  width: 50px;
+}
+
+.h_a_i{
+  height: 30px;
+}
+
+.h_a:hover{
+   background-color: #4a4a4a;
+}
+
+.p_a{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 650px;
+  height:30px;
+  width: 30px;
+  align-items: flex-end; 
+ 
+}
+
+.p_a_i{
+height: 30px;
+
+
+}
+.p_a:hover{
+   background-color: #4a4a4a;
+   
+}
+
+
+.left-sidebar{
+  
+  float: left;
+  width: 150px;
+  height: 500px;
+  flex-direction: column;
+  
+  margin-top: 20px;
+  
+   
+}
+.left-sidebar a{
+  
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-top: 4px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+.left-sidebar a:hover{
+  background-color: #4a4a4a;
+  margin: 5px;
+  
+}
+
+
+
+.left-sidebar hr{
+ margin-bottom: 10px;
+ width: 120px;
+}
+
+
+.container{
+  width: 80%;
+  box-sizing: border-box;
+  padding: 0 10%;
+  background-color: black;
+  height: 1000px;
+  width: 100%;
+  
+}
+
+
+
+
+
+.style2{
+width: 1200px;
+background-image:url("https://dzen.ru/lz5XeGt8f/Ft9Eb7215/16b7c0Pxt/SuTlqB4QwqmHEM3rHYLZkZI0iZydbqOffukGDQryuTcMwsrIA-rEddZVkkezI6OOg2UxKbRmyKHsO7bNghGENF_9yZxqYaOhm0zBXgSi0LTbacjglGKjwnfla1USp4A7Cb9XkQOr9Ty3HCZXrzPfMivpSPVQzhFgEcpSxI9E5QVS8FQ8IyReoReAHQNgvu3NsqwxTCGu4udyoLLRgkc1f6QqgmCn_yE8Nwzz8t76g5KDyeRVqBpdBGXOMtzjnMBthigM7UdEgpEjZHUbkC6NtbI0_WydIh6_FqAKqSLrkX-spnLk7w-lvLsoH4r6ykOK590AvSgaTQTNIlpEX4jUcaKsrEl_aBp5X1hZ6_geiaEeEPXkMR5iT3Yw4gFSt6lDDCq-GA832TRvQG-CwqrXbrdNbDXIynns5UpifI94hGXCEDhVr7yuYR-MWQdAXmHNWoQR5LEWAmOOpLZFJhPRzwhq0vTfB2n4t-D3Ruoq02rHeejZlE75zKEK3syrkPipgvhoFRecclVPBOXD7KqJbYI0sTg9HgJvMnBaSb7vZetYojL8cye5KG8QBy4G-svySy0QdegqEUi1Bnpk40h0YYoAwMkbZO7VD6DRk5TuERGyJGkcHZIubwqc8k1e_2XXcK7qPN_HmXBfYGeKtlYz9puxbJ08lm3IRT4OjPuclN3GmOwBt2CCzStETQtgttlpPlTtdFFCdrtqrAJRBqtBh9z2LpyHrx0wl0wbgrL-t-6bDcA9ADLtCNGiXtCnOLSlPpT4gRcU-jnfbP2vyKrxHW4IzUBNYgbH9uh2wUoHpfskUrLAf4fFdIOEv96usoPuS_nAOeSycXQ9rrLAq3TgXRIEwBUbgEppJ6AdN4xizdlCyG34ySJqqyIEtjmu4znnNFqyeLfv9VAvgLuq1q5DSvslyHmkFlGMiaImaI_UEPlSKPCRP0RSIS8QnavsIoWdNjTxwIn6Qot-1BI1NhuVvwROPuADe9EcK2xHSo4SO35_hSjd4DYN9AV-bux_cPhdimQckcdw8s1n3BG_BA5B8UoUkUS56v7vqmhmmRpr3WtcStJIG-_hIFdgm9aOQsvW2z0ANXjuCQjlBiJ4y-zAVSLkbGkXPJJ1LxRlv2gmWZlGTG2QgT7-N24sHrUqR51jOPJqdIs3kYSX0HsOfqL3Zs_hkBVsPl142epW2NuI-OnaAMhRnzx6ZS-U2f903sHRIlR5RIkCPmM6JCZV3r-B76hmDmQDq-WAT5xTOj4iP47zIZh5pNqxLN0KdnDHYHSBtvScCa_82hnrcKmv3LYpbaI8NXzl-uL_LnQSPVp7Je_wUqacYw8hUGdMRx6iQvuC0yEobQw25SyxKnLcN2hQFVqsOHVjBMqhlwD9A_T6VVGyzOkASXqCz2L87q2KtwkXEGYC9INvvSwnwLO-MkYPwst1LO1w5sFUTXK27Ldo_HWmtJAh8xjaqbMI5e_4Zvm5UlhJKL1uFv_6tBYNBpuZnxwermwj4zGw55gLuoYu98bj0dhRDN59mIn29pjXZGT5NiB8-evodqWPkGUTcOoh1WIYMXAl6ga7BhgiGUoPCeuc5l4413tdrEc068pi6gueE6H8XQDKUfg5zjoEv4D4BQoE6H1jTHbR38QF73hi4XFiHP00YQ4-G6qYngmGt4VrRBqyjNvTSSwPXLM-orr_Fr_VlLmU1h2A5crK6LNwtHUGCJwdH_zuOQ9o1YN82gEtwmix_J1Our8mIO4FJiepxxzCCsB3Q1Gglwz_3vJuL45vCfjhkOpxEO3m7sw_nPhVxmgU-YuwcmW3JFm7wBKppdLoKRzdhhZD1hiiLb4L7R_Utm5gA-tRiCtg_woOUlNud8X8HUSqURxBQvaIo5hAfcIoHO33cJa9RwRZC4iyzSW2nLHoTboK_zLkXo2yZ-3vfHIGyGdDtYibNF-6UqLbErc1BEVg9kncheo6eMPoyIFWlJjlk7QuPWcg6Tdc");
+height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 61px;
+  margin-top:20px;
+  border-radius: 10px;
+  justify-content: space-between;
+  
+}
+.name{
+  background-color: #222;
+  width: 100%;
+  height: 135px;
+  
+  border-radius: 10px;
+}
+.style2{
+  align-items: flex-end;
+}
+.style2 img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 5px solid #222;
+  position: relative;
+  bottom: 78px;
+  left: 27px;
+}
+.container2 h1{
+  color: white;
+  font-size: 25px;
+}
+.Imya{
+  flex-direction: column;
+  margin-left: 40px;
+  color: white;
+  font-size: 15px;
+}
+.Imya p{
+ position: relative;
+ bottom: 20px;
+}
+.silki a{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #424242;
+  display: flex;
+  margin-left: -20px;
+  margin-top: -40px;
+  padding: 20px;
+}
+.style3 a{
+  align-items: flex-end;
+
+
+}
+
+
+
+
+.style4{
+  display: flex;
+  
+  flex-direction: column;
+  border-radius: 10px;
+  width: 650px;
+  height: 505px; 
+  margin-left: 62px;
+  margin-top: 20px;
+  background-color: #222;
+}
+.style5 a{
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-top: 4px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+.style5 a:hover{
+  background-color: #4a4a4a;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 5px;
+}
+
+css
+.style6 {
+  display: flex; /* Используем flexbox для выравнивания */
+  flex-wrap: wrap; /* Позволяет обертку для маленьких экранов */
+  margin-left: 18px; /* Внешний отступ для левой стороны */
+}
+
+.style6 img, .treti img {
+  width: 190px; /* Ширина изображений */
+  height: 190px; /* Высота изображений */
+  margin: 2px; /* Внутренние отступы между изображениями */
+}
+
+
+.style 7 a{
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-top: 4px;
+  border: none;
+  width: 598px;
+  outline: none;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+  background-color: #4a4a4a;
+  margin-left: 20px;
+}
+.style 7 a:hover{
+  background-color: #434343;
+ 
+}
+
+.style 7 p{
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BigContainer{
+  flex-direction: column;
+  
+}
